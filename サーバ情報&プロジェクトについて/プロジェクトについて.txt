@@ -1,14 +1,14 @@
-1>Putty�œ�̑��J����B
+1>Puttyで二つの窓開ける。
 
-�Q���T�[�o�̕������@�@gcc servidor.c -o server
-		�@�@�@./server -f cinema.txt
-			�[�����t�@�C��
-�R���N���C�A���g�̕�����
-			gcc client.�� -o client
+２＞サーバの方＞＞　　gcc servidor.c -o server
+		　　　./server -f cinema.txt
+			ーｆ＞ファイル
+３＞クライアントの方＞＞
+			gcc client.ｃ -o client
 			./ client -h 172.19.69.200 -p 10085
-			�[�����T�[�o��
-			�[�����|�[�g
-�S��Cinema.txt�͉f��ق̐Ȃɂ��Ă̏�񂪏����Ă���B
+			ーｈ＞サーバの
+			ーｐ＞ポート
+４＞Cinema.txtは映画館の席についての情報が書いてある。
 5 
 5 4 3 5 5
 10 -20 -30 20 10
@@ -17,22 +17,20 @@
 5 10 20 10 5
 1 5 -10 -5 -1
 
-�ŏ��̔ԍ��͗�ł��B�񁁂T
-���̗�ɂ���ȁB�@�񁁂P�@�ȁ��T�@// �񁁂Q�@�ȁ��S�@//�񁁂R�@�ȁ��R�@// etc
-��̏��͐Ȃ̒l�i�B�@��1�@�ȁ��P�@�l�i���P�O�@//�񁁂P�@�ȁ��Q�O�@�l�i���Q�O�@// etc
-�ӌ�̔ԍ��̑O��'-'����΁A�����󂢂ĂȂ��ȂƂ����Ӗ��ł��B
-�T�������j���[�ɂ��āF
-		�O�j�n���[�E���[���h
-		1�jCinema.txt�����炤����
-		�Q�j�Ȃ̏������炤����
-		3�j�Ȃ𔃂�
-		4�j�Ȃ�߂�
-		5�j�F�X�ȐȂ𔃂�
-		6�j�F�X�ȐȂ�߂�
-		9�j�I���
+最初の番号は列です。列＝５
+次の列にある席。　列＝１　席＝５　// 列＝２　席＝４　//列＝３　席＝３　// etc
+後の情報は席の値段。　列＝1　席＝１　値段＝１０　//列＝１　席＝２０　値段＝２０　// etc
+晩後の番号の前に'-'あれば、もう空いてない席という意味です。
+５＞＞メニューについて：
+		０）ハロー・ワールド
+		1）Cinema.txtをもらうこと
+		２）席の情報をもらうこと
+		3）席を買う
+		4）席を戻す
+		5）色々な席を買う
+		6）色々な席を戻す
+		9）終わり
 
 
-���Ӂ���
-���X�v���Z�X������ΘA�����ł��Ȃ��̂� jobs�̃R�}���h�Ŋm�F���āAkill�̃R�}���h���g���Ă��������B
 
 
