@@ -1,0 +1,9 @@
+172.19.69.200
+192.168.69.250
+
+gcc servidor.c -o server
+./server -f cinema.txt
+
+
+gcc client.o -o client
+./ client -h 172.19.69.200 -p 10085
